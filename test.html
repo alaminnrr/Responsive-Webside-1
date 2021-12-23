@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        *{
+         margin: 0;
+         padding: 0;   
+        }
+
+        .hero{
+            background-color: rgb(94, 73, 212);
+            height: 25vh;
+            text-align: center;
+            font-size: 1rem;
+        }
+.hero2{
+    
+    height: 70vh;
+    background-color: green;
+    
+}
+
+.mhero{
+    height: 60vh;
+    
+    width: 100%;
+}
+
+.txt{
+    position: absolute;
+    top: 15rem;
+    text-align: center;
+    font-size: 1rem;
+    color: mediumvioletred;
+}
+
+.hero3{
+    height: 80vh;
+    background-color: rgb(27, 233, 233);
+}
+
+.fhero{
+    width: 40%;
+    height: 65vh;
+    float: left;
+    padding-left: 95px;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+  .fhero {
+    background-color: rgb(27, 233, 233);
+    width: 40%;
+    height: 45vh;
+    float: left;
+    padding-left: 25px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="hero">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum unde explicabo omnis delectus consectetur magnam architecto laboriosam blanditiis. Consectetur nostrum facilis natus illum laborum, commodi illo sed quia magni dolores.</p>
+    </div>
+    <div class="hero2"><br>
+        <img class="mhero" src="./bd11.jpg" alt="hero2">
+        <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum unde explicabo omnis delectus consectetur magnam architecto laboriosam blanditiis. Consectetur nostrum facilis natus illum laborum, commodi illo sed quia magni dolores.</p>
+            </div>
+            <div class="hero3"><br>
+          <img class="fhero" src="./f.jpg" alt="hero3">
+          <img class="fhero" src="./f.jpg" alt="hero3">
+            </div>
+</body>
+</html>
